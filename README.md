@@ -1,14 +1,20 @@
-# Lecture 9: Controller Input Events
+# Lecture 9: Interaction and Physics (Part 2)
 
-Detailed explanation of this code can be found in the lecture (will be added after class).
+Detailed explanation of this code can be found in the [lecture video](https://mediaspace.umn.edu/media/t/1_7iu8u207).
 
 ## Topics
 
-1. TBD
+1. Unity's [Universal Render Pipeline](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@13.0/manual/index.html)
+2. Adding custom input event handlers
+3. Adding audio sources to the scene
+4. Manipulating rigid bodies within a script
+5. Collision event handlers
 
 ## Participation Exercise
 
-TBD.
+Download [Lecture-9.apk](https://canvas.umn.edu/files/23498685/download?download_frd=1) from Canvas and install the file on your Oculus Quest using [SideQuest](https://sidequestvr.com/).  You can activate the laser swords using the grip buttons on the controllers.  Experiment with reflecting the blaster bolt, which is directed using a custom collision event handler.  You can reset the blaster bolt using the trigger button on either controller.
+
+To get participation credit, submit a screenshot of the view inside the headset while performing some interesting action.  You can either use [SideQuest](https://sidequestvr.com/) (Windows only) or [Oculus casting](https://www.oculus.com/casting) (Windows or Mac) to stream the headset view to your computer.  
 
 ## License
 

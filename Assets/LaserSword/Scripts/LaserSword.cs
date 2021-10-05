@@ -1,9 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-//using UnityEngine.InputSystem.Controls;
-//using UnityEngine.XR.Interaction.Toolkit.Inputs;
 
 public class LaserSword : MonoBehaviour
 {
@@ -19,18 +15,21 @@ public class LaserSword : MonoBehaviour
         if (swordActive)
         {
             this.GetComponent<MeshRenderer>().enabled = true;
+            this.GetComponent<Rigidbody>().detectCollisions = true;
+
         }
         else
         {
             this.GetComponent<MeshRenderer>().enabled = false;
+            this.GetComponent<Rigidbody>().detectCollisions = false;
         }
 
-        activateAction.action.performed += Activate;
+        activateAction.action.performed += ActivateSword;
     }
 
     void OnDestroy()
     {
-        activateAction.action.performed -= Activate;
+        activateAction.action.performed -= ActivateSword;
     }
 
     // Update is called once per frame
@@ -39,13 +38,14 @@ public class LaserSword : MonoBehaviour
        
     }
 
-    private void Activate(InputAction.CallbackContext context)
+    private void ActivateSword(InputAction.CallbackContext context)
     {
         swordActive = !swordActive;
 
         if (swordActive)
         {
             this.GetComponent<MeshRenderer>().enabled = true;
+            this.GetComponent<Rigidbody>().detectCollisions = true;
 
             if (onSound)
             {
@@ -56,6 +56,7 @@ public class LaserSword : MonoBehaviour
         else
         {
             this.GetComponent<MeshRenderer>().enabled = false;
+            this.GetComponent<Rigidbody>().detectCollisions = false;
 
             if (offSound)
             {

@@ -495,6 +495,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  resetActionRight:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Reset Action Right
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: a488feaf-518a-4769-aa8e-9df8e4c15492
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+    m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  resetActionLeft:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Reset Action Left
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 9d077f69-af7f-4917-bca4-fead1daf5353
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+    m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
 --- !u!136 &579013565
 CapsuleCollider:
   m_ObjectHideFlags: 0
