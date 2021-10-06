@@ -16,6 +16,10 @@ Download [Lecture-9.apk](https://canvas.umn.edu/files/23498685/download?download
 
 To get participation credit, submit a screenshot of the view inside the headset while performing some interesting action.  You can either use [SideQuest](https://sidequestvr.com/) (Windows only) or [Oculus casting](https://www.oculus.com/casting) (Windows or Mac) to stream the headset view to your computer.  
 
+## Acknowledgements
+
+This project uses a modified version of the [UnityLaserSword](https://github.com/jjxtra/UnityLaserSword) asset by Jeff Johnson (jjxtra).
+
 ## License
 
 Material for [CSCI 5619 Fall 2021](https://canvas.umn.edu/courses/268490) by [Evan Suma Rosenberg](https://illusioneering.umn.edu/) is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
